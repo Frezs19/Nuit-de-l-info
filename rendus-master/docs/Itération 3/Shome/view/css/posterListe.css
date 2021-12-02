@@ -1,0 +1,290 @@
+body {
+    background-color: #f1f0e7;
+    min-height: 100%;
+    font-family: 'Roboto';
+}
+
+textarea, input { outline: none; }
+
+#menu {
+    background-color: white;
+    border: 2px solid #a8a8a8;
+    border-width: 0px 0px 2px 0px;
+}
+
+.logo-sm {
+    width:32px;
+    height:32px;
+}
+
+.logo-md {
+    width:48px;
+    height:48px;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+
+#navbarTitre {
+    color:black;
+    font-size: 1.5em;  
+    font-weight: bold;
+}
+
+.nav-link{
+    color:black;
+    font-size: 20px;
+}
+
+#boutonConnexion:hover {
+    color:#fbc740;
+}
+
+#boutonInscription:hover {
+    color: #bd97cb;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#titre {
+    text-align: center;
+    margin:8em auto 2em auto;
+    font-family: "Pacifico";
+}
+
+#titre > h1 {
+    margin:2% auto;
+}
+
+#liste {
+    margin:auto;
+    max-height: 128px;
+    max-width: 128px;
+    height: 15%;
+    width: 15%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+form {
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.produit {
+    display:block;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.input {
+    display: inline-block;
+    box-sizing: border-box;
+    height:3em;
+    width: 12em;
+    padding-left: 0.5em;
+    font-size: 1.2em;
+    margin:0.5em;
+    color:black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.center {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.substituer {
+    box-sizing: border-box;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    max-height: 57px;
+    height:3em;
+    padding-left: 0.5em;
+
+    background-color: white;
+    border: 2px solid #bd97cb;
+    border-radius: 6px;
+
+    transition:0.5s;
+}
+
+.tooltiptext{
+    font-weight: normal;
+    text-align: center;
+    padding: 0.75em 0.75em;
+    border-radius: 0.75em;
+    background-color: white;
+    border: 2px solid #bd97cb;
+    display: none;
+    position: absolute;
+}
+
+.substituer:hover .tooltiptext{
+    display: block;
+    top:26em;
+}
+
+
+.substituant {
+    border-color: #bd97cb;
+}
+
+.substituer > p {
+    margin:0 0.5em;
+    white-space: nowrap;
+}
+
+.substituer:hover {
+    cursor: pointer;
+    background-color: #bd97cb;
+}
+
+.produit:focus {
+    border-color: #9363a5;
+}
+
+.substituants {
+    display: none;
+}
+
+.supprimerSubstituant {
+    box-sizing: border-box;
+    display:none;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    height:3em;
+    width:3em;
+    margin:0.5em 0 0.5em 0.5em;
+
+    background-color: white;
+    border: 2px solid #bd97cb;
+    border-radius: 6px;
+
+    transition:0.5s;
+}
+
+.supprimerSubstituant:hover {
+    background-color: #bd97cb;
+}
+
+.supprimerProduit {
+    box-sizing: border-box;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    height:3em;
+    width:3em;
+    margin:0.5em 0 0.5em 0.5em;
+
+    background-color:#ffaaaa;
+    border: 2px solid #d43c3c;
+    border-radius: 6px;
+
+    transition: background-color 0.5s ease;
+}
+
+.supprimerProduit:hover {
+    background-color:#d43c3c;
+}
+
+.ajouterProduit {
+    box-sizing: border-box;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    height:3em;
+    padding:1em;
+    margin:2em auto 4em auto;
+    border-radius: 1.5em;
+
+    background-color: white;
+
+    transition:0.5s;
+}
+
+.ajouterProduit > p {
+    margin:0 0.5em;
+    white-space: nowrap;
+}
+
+.ajouterProduit:hover {
+    cursor: pointer;
+    background-color: #bd97cb;
+}
+
+#boutonPoster {
+    height:4em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:white;
+    background-color: #39e071;
+    border:none;
+
+    transition:0.5s;
+}
+
+#boutonPoster:hover {
+    background-color:  #23c258;
+}
+
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    padding:1.5em;
+
+    min-height:1em;
+
+    background-color: #5c5c5c;
+    color:white;
+}
+
+
+footer > a {
+    color:white;
+    margin:1%;
+}
+
+footer > p {
+    margin:0;
+}
+
+footer > a:hover {
+    color:white
+}

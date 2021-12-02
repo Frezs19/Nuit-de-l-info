@@ -1,0 +1,207 @@
+body {
+    background-color: #f1f0e7;
+    min-height: 100%;
+    font-family: 'Roboto';
+}
+
+textarea, input { outline: none; }
+
+#menu {
+    background-color: white;
+    border: 2px solid #a8a8a8;
+    border-width: 0px 0px 2px 0px;
+}
+    
+.logo-sm {
+    width:32px;
+    height:32px;
+}
+
+.logo-md {
+    width:48px;
+    height:48px;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+
+#navbarTitre {
+    color:black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-link{
+    color:black;
+    font-size: 20px;
+}
+
+#boutonConnexion:hover {
+    color:#fbc740;
+}
+
+#boutonInscription:hover {
+    color: #bd97cb;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#titre {
+    text-align: center;
+    font-family: "Pacifico";
+    padding:2em;
+    color:black;
+}
+
+
+#titre > h1 {
+    margin:0 auto;
+    font-size: 2.5em;
+}
+
+h1 {
+    margin:0.5em auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Pacifico";
+}
+
+.page {
+
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    min-width: 80%;
+    color:black;
+    font-weight: bold;
+}
+
+form {
+    width:75%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding:1em;
+    border: 2px solid  white;
+    border-radius: 0.75em;
+
+    background-color: white;
+
+    transition:0.5s;
+}
+
+@media screen and (min-width: 800px) {
+    form {
+      width:50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    form {
+      width:90%;
+      margin: 1em;
+    }
+}
+
+form > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    color: #9151a8;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top:1.5em;
+}
+
+input {
+    display: inline-block;
+    box-sizing: border-box;
+    height:3em;
+    width: 100%;
+    padding-left: 0.5em;
+    font-size: 1.2em;
+    color:black;
+    background-color: white;
+    border: 2px solid #9151a8;
+    border-radius: 6px;
+}
+
+select {
+    display: inline-block;
+    box-sizing: border-box;
+    height:3em;
+    width: 100%;
+    padding-left: 0.5em;
+    font-size: 1.2em;
+    color:black;
+    background-color: white;
+    border: 2px solid #9151a8;
+    border-radius: 6px;
+}
+
+#validerInscription {
+    box-sizing: border-box;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    height:3em;
+    padding:0.5em;
+    margin:1.5em auto 0 auto;
+    border-radius: 1.5em;
+
+    background-color:  #39e071;
+    border-color: #39e071;
+
+    transition:0.5s;
+}
+
+#validerInscription:hover {
+    cursor: pointer;
+    background-color: #23c258;
+    border-color: #23c258;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    padding:1.5em;
+
+    min-height:1em;
+
+    background-color: #5c5c5c;
+    color:white;
+}
+
+
+footer > a {
+    color:white;
+    margin:1%;
+}
+
+footer > p {
+    margin:0;
+}
+
+footer > a:hover {
+    color:white
+}

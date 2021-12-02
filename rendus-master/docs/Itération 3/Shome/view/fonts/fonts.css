@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Itim';
+    src: url('Itim-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('Pacifico-Regular.ttf') format('ttf');
+    src: url('Pacifico-Regular.woff') format('woff');
+}
